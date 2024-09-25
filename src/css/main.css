@@ -73,6 +73,27 @@ video {
   }
 }
 
+h2,
+h3 {
+  font-family: playfair display;
+}
+
+.section-sport h3 {
+  color: #c1121f;
+}
+
+.section-culture h3 {
+  color: #669bbc;
+}
+
+.section-regions .highlight {
+  font-weight: bold;
+}
+
+.highlight.colored {
+  background: #fdf0d5;
+}
+
 /* 01. Sélecteurs CSS */
 
 /* 02. Centrer horizontalement */
@@ -83,6 +104,12 @@ video {
   background: #fdf0d5;
   border: 1px solid #c1121f;
   text-transform: uppercase;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 80px;
 }
 
 .calltoaction {
@@ -92,8 +119,17 @@ video {
   color: #fdf0d5;
   font-family: "Playfair Display";
   text-transform: uppercase;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
+.exercise-row .exercise-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
 /* 03. Centrer verticalement */
 
 .card {
@@ -103,14 +139,101 @@ video {
   padding: 20px;
   border-radius: 10px;
   background: #669bbc;
+  display: flex;
+  align-items: center;
 }
 
 .button {
+  height: au;
   width: 200px;
   margin-bottom: 20px;
   background: #780000;
   color: #fdf0d5;
   text-align: center;
+  display: block;
+}
+
+.card,
+.button {
 }
 
 /* 04. Intégration */
+
+.fond {
+  display: flex;
+  width: 634px;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+  background: #f7fafd;
+}
+
+.card2 {
+  display: flex;
+  width: 250px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.1);
+}
+
+picture {
+  width: 251.004px;
+  height: 250px;
+  border-radius: 20px;
+}
+
+.content {
+  display: flex;
+  height: 50px;
+  padding: 0px 20px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  gap: 70px;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.Mail {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.avatar {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  background: #fbbd3c;
+}
+
+.alex {
+  color: #000;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.AP {
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
