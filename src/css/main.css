@@ -150,11 +150,7 @@ h3 {
   background: #780000;
   color: #fdf0d5;
   text-align: center;
-  display: block;
-}
-
-.card,
-.button {
+  padding: 20px;
 }
 
 /* 04. Intégration */
